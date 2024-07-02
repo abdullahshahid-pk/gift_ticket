@@ -28,7 +28,7 @@ class SplashScreenState extends State<SplashScreen> {
       backgroundColor: AppColors.primaryColor,
       body: Center(
         child: Image(
-          image: const AssetImage(AppImages.ticket),
+          image: const AssetImage(AppImages.logoImage),
           height: 125.h,
           width: 125.w,
         ),

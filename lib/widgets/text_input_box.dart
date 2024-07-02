@@ -22,6 +22,7 @@ class TextInputBox extends StatelessWidget {
             child: TextFormField(
               controller: controller,
               style: poppinsPureBlack(size: 12),
+              keyboardType: TextInputType.number,
               decoration: InputDecoration(
                 contentPadding: EdgeInsets.only(bottom: 15.h, left: 15.w),
                 alignLabelWithHint: true,
